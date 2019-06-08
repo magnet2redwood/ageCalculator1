@@ -25,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <EditText
+                    android:id="@+id/dob_cal1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="DD/MM/YY"
@@ -34,9 +35,10 @@
                     android:textColorHint="#FFFFFF"
                     android:textColor="#FFFFFF"/>
                 <Button
+                    android:id="@+id/cal1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
+                    android:onClick="getDateofBirthFromCalender"
                     android:text="OK"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
             </LinearLayout>
